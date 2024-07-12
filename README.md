@@ -10,7 +10,7 @@
     <strong>Le NoFinder Autocrack est un version personalisée du HydraLauncher (fork), nous avons seulement modifié l'interface pour correspondre au pseudo Autocrack annoncé par cFinder </strong>
   </p>
 
-![Catalogue Hydra](./docs/screenshit.png)
+![Accueil NoFinder](./docs/screenshit.png)
 
 </div>
 
@@ -20,10 +20,7 @@
 - [Fonctionnalités](#fonctionnalités)
 - [Installation](#installation)
 - [Contribuer](#contribuer)
-  - [Rejoindre notre Telegram](#rejoindre-notre-telegram)
-  - [Fork et Cloner votre dépôt](#fork-et-cloner-votre-dépôt)
-  - [Manières de contribuer](#manières-de-contribuer)
-  - [Structure du projet](#structure-du-projet)
+  - [Rejoindre notre Discord](#rejoindre-notre-telegram)
 - [Compiler depuis les sources](#compiler-depuis-les-sources)
   - [Installer Node.js](#installer-nodejs)
   - [Installer Yarn](#installer-yarn)
@@ -66,28 +63,9 @@ Suivez les étapes ci-dessous pour installer :
 
 ## Contribuer
 
-### Rejoindre notre Telegram
+### Rejoindre notre Discord
 
-Nous concentrons nos discussions sur notre [Telegram](https://t.me/hydralauncher).
-
-### Fork et Cloner votre dépôt
-
-1. Forkez le dépôt [(cliquez ici pour forker maintenant)](https://github.com/hydralauncher/hydra/fork)
-2. Clonez votre code forké `git clone https://github.com/votre_nom_utilisateur/hydra`
-3. Créez une nouvelle branche
-4. Pushez vos commits
-5. Créez une nouvelle Pull Request
-
-### Manières de contribuer
-
-- Traduction : Nous voulons que Hydra soit disponible pour le plus grand nombre de personnes possible. N'hésitez pas à aider à traduire dans de nouvelles langues ou à mettre à jour et améliorer celles qui sont déjà disponibles sur Hydra.
-- Code : Hydra est construit avec Typescript, Electron et un peu de Python. Si vous voulez contribuer, rejoignez notre [Telegram](https://t.me/hydralauncher) !
-
-### Structure du projet
-
-- torrent-client : Nous utilisons libtorrent, une bibliothèque Python, pour gérer les téléchargements torrent.
-- src/renderer : l'interface utilisateur de l'application.
-- src/main : toute la logique repose ici.
+Nous concentrons nos discussions sur notre [Discord](https://discord.gg/ZjknNUTefE)
 
 ## Compiler depuis les sources
 
@@ -163,10 +141,6 @@ yarn build:linux
 
 ## Contributeurs
 
-<a href="https://github.com/hydralauncher/hydra/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=hydralauncher/hydra" />
-</a>
+Tout le mérite revient a la team HydraLauncher et a tous leurs contributeurs, les modifcations mineures ont été faites par moi (AnzioFckr)
 
-## License
 
-Hydra est sous [License MIT](LICENSE).

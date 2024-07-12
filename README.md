@@ -4,175 +4,164 @@
 
 [<img src="./resources/icon.png" width="144"/>](https://hydralauncher.site)
 
-  <h1 align="center">Hydra Launcher</h1>
+  <h1 align="center">NoFinder Autocrack</h1>
   
   <p align="center">
-    <strong>Hydra is a game launcher with its own embedded bittorrent client and a self-managed repack scraper.</strong>
+    <strong>Le NoFinder Autocrack est un version personalisée du HydraLauncher (fork), nous avons seulement modifié l'interface pour correspondre au pseudo Autocrack annoncé par cFinder </strong>
   </p>
 
-[![build](https://img.shields.io/github/actions/workflow/status/hydralauncher/hydra/build.yml)](https://github.com/hydralauncher/hydra/actions)
-[![release](https://img.shields.io/github/package-json/v/hydralauncher/hydra)](https://github.com/hydralauncher/hydra/releases)
-
-[![be](https://img.shields.io/badge/lang-be-orange)](README.be.md)
-[![pl](https://img.shields.io/badge/lang-pl-white)](README.pl.md)
-[![pt-BR](https://img.shields.io/badge/lang-pt--BR-green.svg)](README.pt-BR.md)
-[![ru](https://img.shields.io/badge/lang-ru-yellow.svg)](README.ru.md)
-[![uk-UA](https://img.shields.io/badge/lang-uk--UA-blue)](README.uk-UA.md)
-[![es](https://img.shields.io/badge/lang-es-red)](README.es.md)
-[![fr](https://img.shields.io/badge/lang-fr-blue)](README.fr.md)
-
-![Hydra Catalogue](./docs/screenshot.png)
+![Catalogue Hydra](./docs/screenshit.png)
 
 </div>
 
-## Table of Contents
+## Table des Matières
 
-- [About](#about)
-- [Features](#features)
+- [À propos](#à-propos)
+- [Fonctionnalités](#fonctionnalités)
 - [Installation](#installation)
-- [Contributing](#contributing)
-  - [Join our Telegram](#join-our-telegram)
-  - [Fork and clone your repository](#fork-and-clone-your-repository)
-  - [Ways you can contribute](#ways-you-can-contribute)
-  - [Project Structure](#project-structure)
-- [Build from source](#build-from-source)
-  - [Install Node.js](#install-nodejs)
-  - [Install Yarn](#install-yarn)
-  - [Install Node Dependencies](#install-node-dependencies)
-  - [Install Python 3.9](#install-python-39)
-  - [Install Python Dependencies](#install-python-dependencies)
-- [Environment variables](#environment-variables)
-- [Running](#running)
-- [Build](#build)
-  - [Build the bittorrent client](#build-the-bittorrent-client)
-  - [Build the Electron application](#build-the-electron-application)
-- [Contributors](#contributors)
+- [Contribuer](#contribuer)
+  - [Rejoindre notre Telegram](#rejoindre-notre-telegram)
+  - [Fork et Cloner votre dépôt](#fork-et-cloner-votre-dépôt)
+  - [Manières de contribuer](#manières-de-contribuer)
+  - [Structure du projet](#structure-du-projet)
+- [Compiler depuis les sources](#compiler-depuis-les-sources)
+  - [Installer Node.js](#installer-nodejs)
+  - [Installer Yarn](#installer-yarn)
+  - [Installer les dépendances Node](#installer-les-dépendances-node)
+  - [Installer Python 3.9](#installer-python-39)
+  - [Installer les dépendances Python](#installer-les-dépendances-python)
+- [Variables d'environnement](#variables-denvironnement)
+- [Lancement](#lancement)
+- [Compilation](#compilation)
+  - [Compiler le client bittorrent](#compiler-le-client-bittorrent)
+  - [Compiler l'application Electron](#compiler-lapplication-electron)
+- [Contributeurs](#contributeurs)
 
-## About
+## À propos
 
-**Hydra** is a **Game Launcher** with its own embedded **BitTorrent Client** and a **self-managed repack scraper**.
+**Hydra** est un **lanceur de jeux** avec son propre **client BitTorrent** intégré et un **scraper de repack auto-géré**.
 <br>
-The launcher is written in TypeScript (Electron) and Python, which handles the torrenting system by using libtorrent.
+Le lanceur est écrit en TypeScript (Electron) et Python, qui gère le système de torrent en utilisant libtorrent.
 
-## Features
+## Fonctionnalités
 
-- Self-Managed repack scraper among all the most reliable websites on the [Megathread]("https://www.reddit.com/r/Piracy/wiki/megathread/")
-- Own embedded bittorrent client
-- How Long To Beat (HLTB) integration on game page
-- Downloads path customization
-- Repack list update notifications
-- Windows and Linux support
-- Constantly updated
-- And more ...
+- Scraper de repack auto-géré parmi tous les sites les plus fiables sur le [Megathread]("https://www.reddit.com/r/Piracy/wiki/megathread/")
+- Client bittorrent intégré
+- Intégration How Long To Beat (HLTB) sur la page du jeu
+- Personnalisation des chemins de téléchargement
+- Notifications de mise à jour de la liste de repack
+- Support pour Windows et Linux
+- Constamment mis à jour
+- Et plus encore ...
 
 ## Installation
 
-Follow the steps below to install:
+Suivez les étapes ci-dessous pour installer :
 
-1. Download the latest version of Hydra from the [Releases](https://github.com/hydralauncher/hydra/releases/latest) page.
-   - Download only .exe if you want to install Hydra on Windows.
-   - Download .deb or .rpm or .zip if you want to install Hydra on Linux. (depends on your Linux distro)
-2. Run the downloaded file.
-3. Enjoy Hydra!
+1. Téléchargez la dernière version de Hydra depuis la page [Releases](https://github.com/hydralauncher/hydra/releases/latest).
+   - Téléchargez uniquement le .exe si vous voulez installer Hydra sur Windows.
+   - Téléchargez .deb ou .rpm ou .zip si vous voulez installer Hydra sur Linux (cela dépend de votre distribution Linux).
+2. Exécutez le fichier téléchargé.
+3. Profitez de Hydra !
 
-## <a name="contributing"> Contributing
+## Contribuer
 
-### <a name="join-our-telegram"></a> Join our Telegram
+### Rejoindre notre Telegram
 
-We concentrate our discussions on our [Telegram](https://t.me/hydralauncher) channel.
+Nous concentrons nos discussions sur notre [Telegram](https://t.me/hydralauncher).
 
-### Fork and clone your repository
+### Fork et Cloner votre dépôt
 
-1. Fork the repository [(click here to fork now)](https://github.com/hydralauncher/hydra/fork)
-2. Clone your forked code `git clone https://github.com/your_username/hydra`
-3. Create a new branch
-4. Push your commits
-5. Submit a new Pull Request
+1. Forkez le dépôt [(cliquez ici pour forker maintenant)](https://github.com/hydralauncher/hydra/fork)
+2. Clonez votre code forké `git clone https://github.com/votre_nom_utilisateur/hydra`
+3. Créez une nouvelle branche
+4. Pushez vos commits
+5. Créez une nouvelle Pull Request
 
-### Ways you can contribute
+### Manières de contribuer
 
-- Translation: We want Hydra to be available to as many people as possible. Feel free to help translate to new languages or update and improve the ones that are already available on Hydra.
-- Code: Hydra is built with Typescript, Electron and a little bit of Python. If you want to contribute, join our [Telegram](https://t.me/hydralauncher)!
+- Traduction : Nous voulons que Hydra soit disponible pour le plus grand nombre de personnes possible. N'hésitez pas à aider à traduire dans de nouvelles langues ou à mettre à jour et améliorer celles qui sont déjà disponibles sur Hydra.
+- Code : Hydra est construit avec Typescript, Electron et un peu de Python. Si vous voulez contribuer, rejoignez notre [Telegram](https://t.me/hydralauncher) !
 
-### Project Structure
+### Structure du projet
 
-- torrent-client: We use libtorrent, a Python library, to manage torrent downloads
-- src/renderer: the UI of the application
-- src/main: all the logic rests here.
+- torrent-client : Nous utilisons libtorrent, une bibliothèque Python, pour gérer les téléchargements torrent.
+- src/renderer : l'interface utilisateur de l'application.
+- src/main : toute la logique repose ici.
 
-## Build from source
+## Compiler depuis les sources
 
-### Install Node.js
+### Installer Node.js
 
-Ensure you have Node.js installed on your machine. If not, download and install it from [nodejs.org](https://nodejs.org/).
+Assurez-vous que Node.js est installé sur votre machine. Sinon, téléchargez et installez-le depuis [nodejs.org](https://nodejs.org/).
 
-### Install Yarn
+### Installer Yarn
 
-Yarn is a package manager for Node.js. If you haven't installed Yarn yet, you can do so by following the instructions on [yarnpkg.com](https://classic.yarnpkg.com/lang/en/docs/install/).
+Yarn est un gestionnaire de paquets pour Node.js. Si vous n'avez pas encore installé Yarn, vous pouvez le faire en suivant les instructions sur [yarnpkg.com](https://classic.yarnpkg.com/lang/en/docs/install/).
 
-### Install Node Dependencies
+### Installer les dépendances Node
 
-Navigate to the project directory and install the Node dependencies using Yarn:
+Naviguez vers le répertoire du projet et installez les dépendances Node en utilisant Yarn :
 
 ```bash
 cd hydra
 yarn
 ```
 
-### Install Python 3.9
+### Installer Python 3.9
 
-Ensure you have Python 3.9 installed on your machine. You can download and install it from [python.org](https://www.python.org/downloads/release/python-3913/).
+Assurez-vous que Python 3.9 est installé sur votre machine. Vous pouvez le télécharger et l'installer depuis [python.org](https://www.python.org/downloads/release/python-3913/).
 
-### Install Python Dependencies
+### Installer les dépendances Python
 
-Install the required Python dependencies using pip:
+Installez les dépendances Python requises en utilisant pip :
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Environment variables
+## Variables d'environnement
 
-You'll need an SteamGridDB API Key in order to fetch the game icons on installation.
-If you want to have onlinefix as a repacker you'll need to add your credentials to the .env
+Vous aurez besoin d'une clé API SteamGridDB pour récupérer les icônes de jeux lors de l'installation.
+Si vous voulez avoir onlinefix comme repacker, vous devrez ajouter vos identifiants au fichier .env.
 
-Once you have it, you can copy or rename the `.env.example` file to `.env` and put it on`STEAMGRIDDB_API_KEY`, `ONLINEFIX_USERNAME`, `ONLINEFIX_PASSWORD`.
+Une fois que vous l'avez, vous pouvez copier ou renommer le fichier `.env.example` en `.env` et y mettre `STEAMGRIDDB_API_KEY`, `ONLINEFIX_USERNAME`, `ONLINEFIX_PASSWORD`.
 
-## Running
+## Lancement
 
-Once you've got all things set up, you can run the following command to start both the Electron process and the bittorrent client:
+Une fois que vous avez tout configuré, vous pouvez exécuter la commande suivante pour démarrer à la fois le processus Electron et le client bittorrent :
 
 ```bash
 yarn dev
 ```
 
-## Build
+## Compilation
 
-### Build the bittorrent client
+### Compiler le client bittorrent
 
-Build the bittorrent client by using this command:
+Compilez le client bittorrent en utilisant cette commande :
 
 ```bash
 python torrent-client/setup.py build
 ```
 
-### Build the Electron application
+### Compiler l'application Electron
 
-Build the Electron application by using this command:
+Compilez l'application Electron en utilisant cette commande :
 
-On Windows:
+Sur Windows :
 
 ```bash
 yarn build:win
 ```
 
-On Linux:
+Sur Linux :
 
 ```bash
 yarn build:linux
 ```
 
-## Contributors
+## Contributeurs
 
 <a href="https://github.com/hydralauncher/hydra/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=hydralauncher/hydra" />
@@ -180,4 +169,4 @@ yarn build:linux
 
 ## License
 
-Hydra is licensed under the [MIT License](LICENSE).
+Hydra est sous [License MIT](LICENSE).

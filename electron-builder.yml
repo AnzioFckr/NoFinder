@@ -1,5 +1,5 @@
 appId: site.hydralauncher.hydra
-productName: Hydra
+productName: NoFinder
 directories:
   buildResources: build
 extraResources:
@@ -17,7 +17,7 @@ files:
 asarUnpack:
   - resources/**
 win:
-  executableName: Hydra
+  executableName: NoFinder
   target:
     - nsis
     - portable

@@ -19,7 +19,7 @@ export const insertDownloadsFromSource = async (
       title: download.title,
       magnet: download.uris[0],
       fileSize: download.fileSize,
-      repacker: downloadSource.name,
+      repacker: downloadSource.repacker,
       uploadDate: download.uploadDate,
       downloadSource: { id: downloadSource.id },
     })

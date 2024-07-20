@@ -21,6 +21,9 @@ export class DownloadSource {
   @Column("text")
   name: string;
 
+  @Column("text")
+  repacker: string;
+
   @Column("text", { nullable: true })
   etag: string | null;
 
